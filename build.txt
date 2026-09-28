@@ -1,0 +1,3 @@
+displayName = Hollow Knight Terrarian Edition
+author = Pipe Bomb Co.
+version = 0.1

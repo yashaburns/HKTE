@@ -1,0 +1,8 @@
+Items: {
+	Nail: {
+		DisplayName: Nail
+		Tooltip: Allows you to bounce off of enemies when striking them
+	}
+}
+
+Projectiles.NailProjectile.DisplayName: Nail Projectile
