@@ -3,6 +3,21 @@ Items: {
 		DisplayName: Nail
 		Tooltip: Allows you to bounce off of enemies when striking them
 	}
+
+	Channelled_Nail: {
+		DisplayName: Channelled Nail
+		Tooltip: Allows you to bounce off of enemies when striking them
+	}
+
+	Spellcaster: {
+		DisplayName: Spellcaster
+		Tooltip: ""
+	}
 }
 
-Projectiles.NailProjectile.DisplayName: Nail Projectile
+Projectiles: {
+	NailProjectile.DisplayName: Nail Projectile
+	ChannelledNailProjectile.DisplayName: Channelled Nail Projectile
+	ChanneledNailProjectile.DisplayName: Channeled Nail Projectile
+	HowlingWraithsProjectile.DisplayName: Howling Wraiths Projectile
+}
