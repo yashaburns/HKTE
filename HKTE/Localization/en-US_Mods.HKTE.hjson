@@ -20,4 +20,5 @@ Projectiles: {
 	ChannelledNailProjectile.DisplayName: Channelled Nail Projectile
 	ChanneledNailProjectile.DisplayName: Channeled Nail Projectile
 	HowlingWraithsProjectile.DisplayName: Howling Wraiths Projectile
+	VengefulSpiritProjectile.DisplayName: Vengeful Spirit Projectile
 }

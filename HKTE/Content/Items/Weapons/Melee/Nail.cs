@@ -1,11 +1,11 @@
-﻿using HKTE.Content.Projectiles;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using System.Runtime.CompilerServices;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
+using HKTE.Content.Projectiles.Melee;
 
 namespace HKTE.Content.Items.Weapons.Melee
 {

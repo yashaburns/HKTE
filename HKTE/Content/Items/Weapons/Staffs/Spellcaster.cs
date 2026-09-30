@@ -1,5 +1,4 @@
-﻿using HKTE.Content.Projectiles;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +8,8 @@ using Terraria.Enums;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
+using HKTE.Content.Projectiles.Spells.Wraiths;
+using HKTE.Content.Projectiles.Spells.Spirit;
 
 namespace HKTE.Content.Items.Weapons.Staffs
 {
@@ -65,8 +66,8 @@ namespace HKTE.Content.Items.Weapons.Staffs
                 Projectile.NewProjectile(
                     player.GetSource_ItemUse(Item),
                     player.Center,
-                    Vector2.UnitX * facing,
-                    ModContent.ProjectileType<HowlingWraithsProjectile>(),
+                    Vector2.UnitX * facing * 10f,
+                    ModContent.ProjectileType<VengefulSpiritProjectile>(),
                     Item.damage,
                     Item.knockBack,
                     player.whoAmI
