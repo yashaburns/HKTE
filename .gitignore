@@ -5,3 +5,6 @@ obj/
 # tModLoader generated files
 *.tmod
 *.dll
+
+# libresprite
+*.ini
