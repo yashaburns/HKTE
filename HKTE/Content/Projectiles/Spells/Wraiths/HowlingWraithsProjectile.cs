@@ -12,7 +12,7 @@ namespace HKTE.Content.Projectiles.Spells.Wraiths
         {
             Main.projFrames[Type] = 11;
         }
-        public int killTime = 40;
+        public int killTime = 50;
         public float Timer
         {
             get => Projectile.ai[0];
@@ -50,8 +50,8 @@ namespace HKTE.Content.Projectiles.Spells.Wraiths
         public override void AI()
         {
             Timer++;
-            float scale = MathHelper.Clamp((Timer / 3f) * 0.1f, 0f, 1.5f);
-            Projectile.frame = Math.Min((int)(Timer / 3f), 10);
+            float scale = MathHelper.Clamp((Timer / 5f) * 0.2f, 0f, 1f);
+            Projectile.frame = Math.Min((int)(Timer / 4f), 10);
 
             if (Main.rand.NextBool(2))
             {

@@ -125,7 +125,7 @@ namespace HKTE.Content.Projectiles.Melee
                         target.Center
                     );
 
-                    player.velocity.Y = -8f;
+                    player.velocity.Y = -7f;
                 }
             }
         }

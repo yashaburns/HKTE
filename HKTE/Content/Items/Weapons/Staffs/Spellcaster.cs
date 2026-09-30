@@ -63,13 +63,24 @@ namespace HKTE.Content.Items.Weapons.Staffs
             {
                 int facing = direction.X >= 0 ? 1 : -1;
 
+                Vector2 spawnPosition = player.Center + new Vector2(80f * facing, -30f);
+
                 Projectile.NewProjectile(
                     player.GetSource_ItemUse(Item),
-                    player.Center,
+                    spawnPosition,
                     Vector2.UnitX * facing * 10f,
                     ModContent.ProjectileType<VengefulSpiritProjectile>(),
                     Item.damage,
                     Item.knockBack,
+                    player.whoAmI
+                );
+                Projectile.NewProjectile(
+                    player.GetSource_ItemUse(Item),
+                    player.Center,
+                    Vector2.Zero,
+                    ModContent.ProjectileType<VengefulSpiritCastProjectile>(),
+                    0,
+                    0,
                     player.whoAmI
                 );
             }
@@ -82,6 +93,7 @@ namespace HKTE.Content.Items.Weapons.Staffs
             // Player is currently casting
             if (player.itemAnimation > 0)
             {
+                player.position = player.oldPosition;
                 player.velocity = Vector2.Zero;
 
                 player.controlLeft = false;

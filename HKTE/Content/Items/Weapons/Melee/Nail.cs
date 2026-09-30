@@ -15,7 +15,7 @@ namespace HKTE.Content.Items.Weapons.Melee
         private int dmgBonus = 0;
         public override void SetDefaults()
         {
-            Item.damage = 30;
+            Item.damage = 22;
             Item.knockBack = 4f;
             Item.useStyle = ItemUseStyleID.Rapier; // Makes the player do the proper arm motion
             Item.useAnimation = 12;
