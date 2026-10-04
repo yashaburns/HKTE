@@ -9,7 +9,7 @@ using HKTE.Content.Projectiles.Melee;
 
 namespace HKTE.Content.Items.Weapons.Melee
 {
-    public class Channelled_Nail : ModItem
+    public class ChannelledNail : ModItem
     {
         private bool canSpawnDust = false;
         private int dmgBonus = 0;
@@ -29,7 +29,7 @@ namespace HKTE.Content.Items.Weapons.Melee
             Item.noMelee = true; // The projectile will do the damage and not the item
             Item.scale = 1.5f;
 
-            Item.shoot = ModContent.ProjectileType<ChanneledNailProjectile>(); // The projectile is what makes a shortsword work
+            Item.shoot = ModContent.ProjectileType<ChannelledNailProjectile>(); // The projectile is what makes a shortsword work
             Item.shootSpeed = 1f; // This value bleeds into the behavior of the projectile as velocity, keep that in mind when tweaking values
         }
 

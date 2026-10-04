@@ -12,8 +12,6 @@
 	<ItemGroup>
 	  <Folder Include="Assets\" />
 	  <Folder Include="Content\Items\Accessories\" />
-	  <Folder Include="Content\NPCS\" />
-	  <Folder Include="Core\" />
 	  <Folder Include="Content\Dusts\" />
 	</ItemGroup>
 

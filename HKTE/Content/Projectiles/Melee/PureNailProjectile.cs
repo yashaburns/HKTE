@@ -9,7 +9,7 @@ using Terraria.ModLoader;
 
 namespace HKTE.Content.Projectiles.Melee
 {
-    internal class ChanneledNailProjectile : ModProjectile
+    internal class PureNailProjectile : ModProjectile
     {
         public const int FadeInDuration = 7;
         public const int FadeOutDuration = 4;
@@ -32,7 +32,7 @@ namespace HKTE.Content.Projectiles.Melee
             Projectile.friendly = true;
             Projectile.penetrate = -1;
             Projectile.tileCollide = false;
-            Projectile.scale = 1.5f;
+            Projectile.scale = 2f;
             Projectile.DamageType = DamageClass.Melee;
             Projectile.ownerHitCheck = true; // Prevents hits through tiles. Most melee weapons that use projectiles have this
             Projectile.extraUpdates = 1; // Update 1+extraUpdates times per tick

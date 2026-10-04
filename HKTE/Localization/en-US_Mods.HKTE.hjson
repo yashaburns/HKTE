@@ -9,8 +9,23 @@ Items: {
 		Tooltip: Allows you to bounce off of enemies when striking them
 	}
 
+	Pure_Nail: {
+		DisplayName: Pure Nail
+		Tooltip: Allows you to bounce off of enemies when striking them
+	}
+
 	Spellcaster: {
 		DisplayName: Spellcaster
+		Tooltip: ""
+	}
+
+	ChannelledNail: {
+		DisplayName: Channelled Nail
+		Tooltip: ""
+	}
+
+	PureNail: {
+		DisplayName: Pure Nail
 		Tooltip: ""
 	}
 }
@@ -23,4 +38,7 @@ Projectiles: {
 	VengefulSpiritProjectile.DisplayName: Vengeful Spirit Projectile
 	VengefulSpiritCastProjectile.DisplayName: Vengeful Spirit Cast Projectile
 	VengefulSpiritImpactProjectile.DisplayName: Vengeful Spirit Impact Projectile
+	PureNailProjectile.DisplayName: Pure Nail Projectile
 }
+
+NPCs.Mosquito.DisplayName: Mosquito
