@@ -5,13 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria.ModLoader;
 
-namespace HKTE.Core.Systems
+namespace HKTE.Content.Items.Placeable
 {
-    internal class WorldGen :ModSystem
+    internal class HallownestChestItem : ModItem
     {
-        public override void PostWorldGen()
-        {
-            
-        }
     }
 }

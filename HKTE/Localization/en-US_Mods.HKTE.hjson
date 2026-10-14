@@ -28,6 +28,11 @@ Items: {
 		DisplayName: Pure Nail
 		Tooltip: ""
 	}
+
+	HallownestChestItem: {
+		DisplayName: Hallownest Chest Item
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -42,3 +47,4 @@ Projectiles: {
 }
 
 NPCs.Mosquito.DisplayName: Mosquito
+Tiles.HallownestChest.MapEntry0: Mods.HKTE.Tiles.HallownestChest.MapEntry0
