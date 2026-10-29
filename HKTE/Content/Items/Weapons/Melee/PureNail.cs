@@ -19,7 +19,7 @@ namespace HKTE.Content.Items.Weapons.Melee
             Item.knockBack = 4f;
             Item.useStyle = ItemUseStyleID.Rapier; // Makes the player do the proper arm motion
             Item.useAnimation = 12;
-            Item.useTime = 12;
+            Item.useTime = 6;
             Item.width = 32;
             Item.height = 32;
             Item.UseSound = SoundID.Item1;
@@ -27,7 +27,7 @@ namespace HKTE.Content.Items.Weapons.Melee
             Item.autoReuse = false;
             Item.noUseGraphic = true; // The sword is actually a "projectile", so the item should not be visible when used
             Item.noMelee = true; // The projectile will do the damage and not the item
-            Item.scale = 1.5f;
+            Item.scale = 5f;
 
             Item.shoot = ModContent.ProjectileType<PureNailProjectile>(); // The projectile is what makes a shortsword work
             Item.shootSpeed = 1f; // This value bleeds into the behavior of the projectile as velocity, keep that in mind when tweaking values
@@ -52,7 +52,7 @@ namespace HKTE.Content.Items.Weapons.Melee
 
             Projectile.NewProjectile(
                 source,
-                player.Center,
+                player.Center - 20f * direction,
                 direction,
                 type,
                 damage,

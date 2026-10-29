@@ -11,7 +11,7 @@ namespace HKTE.Content.Projectiles.Melee
 {
     internal class PureNailProjectile : ModProjectile
     {
-        public const int FadeInDuration = 7;
+        public const int FadeInDuration = 4;
         public const int FadeOutDuration = 4;
 
         public const int TotalDuration = 16;

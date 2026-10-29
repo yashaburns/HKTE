@@ -33,6 +33,16 @@ Items: {
 		DisplayName: Hallownest Chest Item
 		Tooltip: ""
 	}
+
+	CoiledNail: {
+		DisplayName: Coiled Nail
+		Tooltip: ""
+	}
+
+	SharpenedNail: {
+		DisplayName: Sharpened Nail
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -44,6 +54,8 @@ Projectiles: {
 	VengefulSpiritCastProjectile.DisplayName: Vengeful Spirit Cast Projectile
 	VengefulSpiritImpactProjectile.DisplayName: Vengeful Spirit Impact Projectile
 	PureNailProjectile.DisplayName: Pure Nail Projectile
+	CoiledNailProjectile.DisplayName: Coiled Nail Projectile
+	SharpenedNailProjectile.DisplayName: Sharpened Nail Projectile
 }
 
 NPCs.Mosquito.DisplayName: Mosquito
